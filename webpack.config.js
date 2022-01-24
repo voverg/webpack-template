@@ -13,8 +13,8 @@ module.exports = {
   mode: mode,
   entry: './index.js',
   output: {
-    filename: getFileName('js'),
     path: path.resolve(__dirname, './dist'),
+    filename: getFileName('js'),
     assetModuleFilename: 'img/[hash][ext][query]',
     clean: true,
   },

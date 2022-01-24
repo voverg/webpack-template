@@ -1,1 +1,1 @@
-This is a template for webpack
+This is a template for webpack 5
