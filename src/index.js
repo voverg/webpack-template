@@ -1,7 +1,6 @@
-
 import './main.scss';
 
-const cat = 'cat';
-const dog = 'dog';
+import '@/components/Header';
+import '@/components/Footer';
+import '@/components/Sidebar';
 
-console.log(cat, dog);

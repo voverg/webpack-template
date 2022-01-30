@@ -1,0 +1,15 @@
+include ../components/_head/_head
+include ../components/Header/Header
+include ../components/Footer/Footer
+include ../components/Sidebar/Sidebar
+
+doctype html
+html(lang="en")
+  +head('about')
+  body
+    +header('This is a header')
+    main.container
+      +sidebar('This is a sidebar')
+      .content This is an about
+        //- img(src=trash)
+    +footer('This is a footer')

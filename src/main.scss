@@ -1,15 +1,19 @@
+@import 'fonts/_fonts.scss';
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 700px;
+body {
   min-height: 100vh;
-  margin: 0 auto;
-  /*background-color: steelblue;*/
-  /*color: #fff;*/
-  border: 1px solid #000;
-  background: url(components/Header/social_budget_screenshot.png) no-repeat center / contain;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto-black', sans-serif;
+}
+
+.container {
+  flex: 1 1 auto;
+  display: flex;
 }

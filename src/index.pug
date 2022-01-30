@@ -1,0 +1,18 @@
+include components/_head/_head
+include components/Header/Header
+include components/Footer/Footer
+include components/Sidebar/Sidebar
+
+- const trash = require('./components/_head/trash.png');
+
+doctype html
+html(lang="en")
+  +head('zhopa')
+  body
+    +header('This is a header')
+    main.container
+      +sidebar('This is a sidebar')
+      .content This is a content
+        img(src=trash)
+        a(href='about.html' target='_blank') О нас
+    +footer('This is a footer')
